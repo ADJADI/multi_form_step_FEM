@@ -14,7 +14,6 @@ import { validationSchemaStep1 } from "./utils/validationSchema";
 import { validationSchemaStep2 } from "./utils/validationSchema";
 import { validationSchemaStep3 } from "./utils/validationSchema";
 import { space } from "postcss/lib/list";
-import pixel from "../../design/desktop-design-step-2-monthly.jpg";
 
 function App({ ...props }) {
   const [isMonthly, setisMonthly] = useState(false);
@@ -96,10 +95,6 @@ function App({ ...props }) {
     >
       {({ handleChange, values, isValid }) => (
         <Form>
-          {/* <div className="absolute top-0">
-            {" "}
-            <img src={pixel} alt="" className="opacity-80" />
-          </div> */}
           <div className="flex justify-center md:px-10 md:min-h-screen md:pt-[105px] bg-Alabaster">
             <div className="flex min-h-screen h-full w-full rounded-lg md:w-[940px] md:bg-white md:h-[600px] md:min-h-0 md:p-4 md:items-center md:relative md:mt-0 md:shadow-xl  opacity-70">
               <div className="fixed top-0 md:static h-full">
